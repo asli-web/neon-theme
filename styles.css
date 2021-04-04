@@ -200,7 +200,14 @@ h1 p {
 
 /* nav border bottom shadow */
 @media screen and (max-width: 800px) {
-	.text p {
-		padding: 45px 0;
+	.text {
+		width: 40%;
+		right: 2%;
+		top: 32%;
+		padding-bottom: 20px;
+	}
+	.title {
+		left: 5%;
+		width: 43%;
 	}
 }
