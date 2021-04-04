@@ -199,7 +199,7 @@ h1 p {
 }
 
 /* nav border bottom shadow */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
 	.text {
 		width: 40%;
 		right: 2%;
@@ -208,5 +208,12 @@ h1 p {
 	.title {
 		left: 5%;
 		width: 43%;
+	}
+	a {
+		padding: 10px 15px;
+		letter-spacing: normal;
+	}
+	h1 {
+		font-size: 66px;
 	}
 }
