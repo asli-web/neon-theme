@@ -199,15 +199,23 @@ h1 p {
 }
 
 /* nav border bottom shadow */
-@media screen and (max-width: 800px) {
-.text {
-	width: 34%;
-  	right: 4%;
- 	top: 34%;
-    	padding: 10px;
-}
-.title {
-	left: 5%;
-	width: 43%;
-}
+
+@media screen and (max-width: 500px) {
+	.text {
+		width: 40%;
+		right: 2%;
+		top: 32%;
+	}
+	.title {
+		left: 5%;
+		width: 43%;
+	}
+	a {
+		padding: 10px 15px;
+		letter-spacing: normal;
+	}
+	h1 {
+		font-size: 66px;
+	}
+
 }
