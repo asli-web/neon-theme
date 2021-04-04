@@ -200,7 +200,7 @@ h1 p {
 
 /* nav border bottom shadow */
 @media screen and (max-width: 800px) {
-	.text p {
+	h1 p {
 		padding: 45px 0;
 	}
 }
